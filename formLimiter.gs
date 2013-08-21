@@ -2,7 +2,8 @@
 // Published under GNU General Public License, version 3 (GPL-3.0)
 // See restrictions at http://www.opensource.org/licenses/gpl-3.0.html
 // Support and contact at http://www.youpd.org/formlimiter
-
+var scriptName = "formLimiter"
+var scriptTrackingId = "UA-40677834-1"
 
 var HOURS = [12,1,2,3,4,5,6,7,8,9,10,11];
 var FORMLIMITERIMAGEID = '0B2vrNcqyzernR1dPa19jX3ZUUEk';
@@ -209,7 +210,6 @@ function formLimiter_checkSendNotification() {
 
 
 function formLimiter_saveFormLimit(e) {
-  setformLimiterUid();
   setformLimiterSid();
   var app = UiApp.getActiveApplication();
   var ss = SpreadsheetApp.getActiveSpreadsheet();
