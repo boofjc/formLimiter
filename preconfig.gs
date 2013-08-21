@@ -1,6 +1,5 @@
 function formLimiter_preconfig() {
-  setformLimiterUid();
-  setformLimiterSid();
+  setformLimiterSid()
   // if you are interested in sharing your complete workflow system for others to copy (with script settings)
   // Select the "Generate preconfig()" option in the menu and
   //#######Paste preconfiguration code below before sharing your system for others to copy#######
@@ -14,7 +13,6 @@ function formLimiter_preconfig() {
   //#######End preconfiguration code#######
   ScriptProperties.setProperty('preconfigStatus', 'true');
   onOpen();
-  formLimiter_getInstitutionalTrackerObject();
 }
 
 
